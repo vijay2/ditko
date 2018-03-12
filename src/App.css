@@ -1,0 +1,221 @@
+/*************** Reset Start *******************/
+body { font-size: 62.5%; font-family:Arial, Helvetica, sans-serif; -webkit-font-smoothing: antialiased; font-weight:300; }
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, input { margin: 0; padding: 0; list-style: none; }
+a { text-decoration: none; outline: none; cursor: pointer; }
+a.selected { color: #333; }
+a:hover.selected { text-decoration: none; }
+/*a:visited{ color:#60615f; text-decoration:underline;}*/
+img { border: none; }
+html { width: 100%; overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+p, input { font-size: 1.1em; color: #5e6061 }
+h1 { font-size: 1.8em; line-height: 1.2em; }
+h2 { font-size: 1.5em; }
+h3, h3 a { font-size: 1.2em; }
+h4, h4 a { font-size: 1.2em; }
+h5, h5 a { font-size: 1.2em; }
+h6, h6 a { font-size: 1.2em; }
+h3 a, h4 a, h5 a, h6 a { font-size: 1em; text-decoration: underline; }
+h1, h2, h3, h4, h5, h6{font-weight:normal}
+table, table tr td, table tr th { border: none }
+input[type='submit'] { -webkit-appearance: none; }
+.clearfix:after { content: "."; /*display: block;*/ clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix {/*display: inline-block;*/ }
+* html .clearfix { height: 1%; }
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: none; -webkit-border-radius: 0; }
+.clear { font-size: 1%; height: 0; line-height: 0; width: 0; float: none; clear: both; }
+html[xmlns] .clearfix {/*display: block;*/ }
+input { outline: none }
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, mark { display: block; width: 100%; }
+strong { font-family: 'Lato-Bold'; font-weight: normal }
+/*********************** Reset End *****************/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.wrapper{width: 1200px; margin: 0 auto; }
+#app p{font-size: 1.8em; margin: 5px 0}
+
+h2{font-size: 2.8em; margin: 20px 0 0 0; float: left; width: 100%; float: left;}
+p.clickImg{color: red; cursor: pointer;}
+ul.bannerUL, ul.bannerUL li{width: 100%; float: left; height: 500px; position: relative;}
+ul.bannerUL{margin: 0 0 20px 0}
+ul.bannerUL li{position: absolute; left: 0; top: 0}
+
+.owl-carousel{width: 100%; float: left;}
+
+header{width: 100%; float: left; height: 120px; border-bottom: 1px solid #ccc; position: relative; background: #ccc}
+header .wrapper{height: 100%; }
+header .logo{width: auto;; float: left; position: absolute; left:20px; top:50%; transform: translate(0,-50%);}
+header .logo img{width: 80px}
+header nav{width:auto;  float: right; height: 100%; display: table; }
+header nav ul{width: auto;; margin: 0 auto 0 auto; display: table-cell; vertical-align: bottom; padding: 0 0 25px 0; box-sizing: border-box;  }
+header nav ul li{width: auto;; float: left; margin: 0 10px;}
+header nav ul li a{font-size: 1.8em; text-transform: uppercase; color: #565656;}
+.active{color: red}
+body{background:#fff;}
+@media only screen and (max-width: 1200px){
+  .wrapper{width: 100%; padding: 0 50px; box-sizing: border-box;}
+}
+
+.formWrap, .formWrap ul li{width: 100%; float: left;}
+.formWrap ul{width: 50%; margin: 0 auto}
+.formWrap ul li{margin: 10px 0; }
+.formWrap ul li input[type=text]{border: 1px solid #666; width: 100%; float: left; height: 35px; line-height: 35px; box-sizing: border-box; font-size: 1.6em; padding: 0 15px;}
+.formWrap ul li a, .formWrap ul li input[type=submit]{border: 1px solid #666; width: auto;  height: 35px; line-height: 35px; box-sizing: border-box; display: table; margin: 0 auto; padding: 0 25px; font-size: 2em; background:#666; color: #fff;}
+.buttonWrap{width:  auto; margin: 0 auto; display: table;}
+.buttonWrap button{float: left; margin: 0 10px; }
+.boldTextClass{font-size: 1.8em; color: #000; width: 100%; float: left; margin: 15px 0;}
+.redTextClass{color: red}
+.animBox{width:  100%; float: left; color: green; font-size: 1.6em; margin: 50px 0; position: relative; transition: all ease 0.5s; }
+.animBox.animStart{letter-spacing: 5px}
+p{font-size: 1.6em; color: #000; margin: 10px 0}
+
+ul.tabUL{width: 100%; float: left; margin: 40px 0;}
+ul.tabUL li{width: 33.33%; float: left; height: 50px; line-height: 50px; font-size: 2em; text-transform: uppercase; background: #333; color: #fff; border-left: 1px solid #fff; box-sizing: border-box; text-align: center;}
+.tabWrap, .tabWrap .tabDetails{width: 100%; float: left; text-align: left;}
+.tabWrap .tabDetails{display: none;}
+.tabWrap .tabDetails.active{display: block;}
+
+.navbar{width: 100%; float: left;}
+ul.navbar-nav, ul.navbar-nav li{width: 100%; float: left; text-align: left;}
+ul.navbar-nav li {font-size: 1.8em; margin: 15px 0}
+.wrapper .element{width: 100%; float: left; font-size: 1.4em; margin: 10px 0}
+#same{margin: 1500px 0}
+
+.mar2{margin:550px 0; width: 100%; float: left;}
+
+.wrapper .article{height: 80vh; width: 100%; float: left; background: #ccc; border: 2px #000 solid; box-sizing:border-box; }
+.wrapper .article.active{background: red}
+
+.inputFields{width: 40%; margin: 0 auto; display: table; padding: 25px 0}
+.inputFields input{width: 100%; float: left; border: 1px solid #ccc; padding: 0 25px; box-sizing: border-box; line-height: 50px; height: 50px; font-size: 1.6em}
+.fbWrapper{width: 100%; float: left; padding: 50px 0; position: relative; }
+.fbWrapper .link{width: 150px; float: left; margin: 0 20px; line-height: 40px; height: 40px; text-align: center; padding: 0 25px; cursor: pointer; background:#4a69a6; color: #fff; font-size: 2em; text-transform: uppercase; margin: 5px}
+.fbWrapper .link:hover{background: #3d5b94}
+
+.record{width: 100%; float: left; margin: 25px 0 0 0}
+ul.recordUL, ul.recordUL > li{width: 100%; float: left;}
+ul.recordUL > li{margin:0; border-bottom: 1px solid #ccc;}
+ul.recordUL > li > .img{width: 25%; float: left; min-height: 180px; }
+.imgDiv{width: 350px; height: 200px; border: 2px solid #ccc; float: left; padding: 2px; box-sizing: border-box;}
+.imgDiv a{width: 100%; height: 100%; float: left; overflow: hidden;}
+ul.recordUL > li .img img{width: 100%; float: left;}
+ul.recordUL > li { float: left; font-size: 2em; padding: 50px 0 0 0}
+ul.recordUL > li .leftCont{width: 75%; float: left; padding: 0 20px; box-sizing: border-box;}
+ul.recordUL > li ul.socialUL{width: 100%; float: left;}
+ul.recordUL > li ul.socialUL li{width: auto; float: left; min-width: 80px; position: relative;  padding:60px 15px 10px 15px; }
+ul.recordUL > li ul.socialUL li:after{width:70px; height: 70px; content: ''; position: absolute; left: 50%; top: 0; margin-left: -35px; background: url('/images/fb-reactions.png') no-repeat 0 0; display: block; transform: scale(0.5);  }
+ul.recordUL > li ul.socialUL li.likes:after{background-position: 0 0;}
+ul.recordUL > li ul.socialUL li.love:after{background-position: -87px 0;}
+ul.recordUL > li ul.socialUL li.haha:after{background-position: -174px 0;}
+ul.recordUL > li ul.socialUL li.wow:after{background-position: -261px 0;}
+ul.recordUL > li ul.socialUL li.sad:after{background-position: -348px 0;}
+ul.recordUL > li ul.socialUL li.angry:after{background-position: -431px 0;}
+ul.recordUL > li ul.socialUL li.reactionCount span{position: absolute; top: 20px; left: 0; width: 100%; text-align: center; font-size: 0.8em }
+ul.recordUL > li ul.socialUL li.reactionCount:after{display: none;}
+ul.recordUL > li p.msgTxt{font-size: 0.8em; width: 100%; float: left; text-align: left; margin: 25px 0 25px 0;  }
+ul.recordUL > li p.msgTxt.readMore{margin: 0 0 25px 0; font-size: 0.6em;  }
+ul.recordUL > li p.msgTxt.readMore a{color: #4a69a6; text-transform: uppercase; letter-spacing: 1px; font-family: verdana}
+ul.recordUL > li p.msgTxt.readMore a:hover{color: #5e9ff3}
+ul.recordUL > li ul.socialUL li:nth-child(7n+1){clear: left;}
+.pagefans{width: 100%; float: left; font-size: 2em; color: #000;}
+.pagefans span{font-size: 1.2em; color: #5e9ff3; }
+
+
+.buttons{width: auto; display: table; margin: 0 auto;}
+
+header h1{width: auto; float: right; font-size: 5em; margin: 28px 20px 0 0; color: #2d2d2d; }
+
+.fbWrapper a.fbLogin{color: #fff; background: #4a69a6; width: auto; text-transform: none; transition: all ease 0.3s; }
+.fbWrapper a.fbLogin:hover{ background: #3d5b94; }
+.fbMidWrapper{width: 80%; margin: 0 auto}
+
+
+ul.dataUL{width: 100%; float: left; text-align: center;}
+ul.dataUL li{width: 25%; float: left; text-align: center; padding: 20px 15px; box-sizing: border-box;}
+ul.dataUL li h3{width: 100%; float: left; font-size: 2em; color: #5e6061}
+ul.dataUL li h3 span{width: 100%; float: left; color: #5e9ff3; font-size: 1.3em; margin: 10px 0 0 0 }
+
+.filter{width: 100%; float: left; margin: 20px 0}
+.filter a.link{width: auto;}
+ul.filterUL{width: 450px; margin: 0 auto; display: table;}
+ul.filterUL li{width: 40%; float: left; padding: 0 5px; box-sizing: border-box;}
+ul.filterUL li:last-child{width: 20%; padding: 0px 0 0 5px;}
+ul.filterUL li input[type=text]{width: 100%; float: left; height: 40px; line-height: 40px; border: 1px solid #5e6061; font-size: 1.6em; color: #5e6061; padding: 0 15px; box-sizing: border-box; }
+.react-date-picker, .react-date-picker .react-date-picker__button{width: 100%; float: left; height: 40px; line-height: 40px; }
+.react-date-picker .react-date-picker__button{padding: 0 10px; box-sizing: border-box; font-size: 1.4em; }
+ul.filterUL li a.link{ margin: 0 }
+
+
+.noRecordMsg, .errorMsg{width: 100%; float: left; margin: 15px 0; }
+.noRecordMsg p, .errorMsg p{color: red; font-size: 1.4em; text-align: center;}
+.noRecordMsg p{font-size: 4em; color:#5e6061 }
+
+.profileImg{position: absolute; right: 20px; top: 0; cursor: pointer; }
+.profileImg p{width: auto; float: left; line-height: 40px;}
+.profileImg p img{ border-radius: 100px; width: 40px; float: left; margin: 0 10px 0 0; box-shadow:2px 2px 5px 1px #000 }
+.profileImg p span{float: right; position: relative; padding: 0 20px 0 0}
+.profileImg p span:after{width: 0; height: 0; content: ''; display: block; position: absolute; right: 0; top: 12px; border: 2px solid #3d5b94; border-width:0 2px 2px 0; transform: rotate(45deg); padding: 4px }
+.profileImg a.logoutBtn{ position: absolute; right: 0; top: 50px; color: #fff; background: #4a69a6; width: auto; text-transform: none; transition: all ease 0.3s; line-height: 40px; height: 40px; text-align: center; padding: 0 25px; cursor: pointer; color: #fff; font-size: 2em; opacity: 0; transition: all ease 0.3s; visibility: hidden;}
+.profileImg a.logoutBtn:hover{ background: #3d5b94; }
+.profileImg:hover a.logoutBtn{opacity: 1; top: 60px; visibility: visible;}
+h3{width: 100%; float: left; text-align: left; color:  #4a69a6; font-size: 1.6em;}
+.hidden{display: none;}
